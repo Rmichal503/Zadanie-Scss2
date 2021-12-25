@@ -1,0 +1,65 @@
+form {
+    margin: 20px auto;
+    width: 100%;
+    max-width: 550px;
+
+    .text-center,
+    h2,
+    h3,
+    .nav-main & {
+        p {
+            margin-top: 10;
+        }
+    }
+
+    p {
+        font-size: 12px;
+        font-size: 0.75rem;
+    }
+
+    @media (min-width: 992px) {
+        padding-bottom: 40px;
+
+        p {
+            display: inline-block;
+            float: left;
+        }
+
+        .button-send {
+            float: right;
+            margin-top: 0;
+        }
+    }
+}
+
+input {
+    display: block;
+    width: 100%;
+    font-size: 12px;
+    font-size: 0.75rem;
+    outline: none;
+    padding: 15px;
+    color: #686868;
+    border: 2px solid #D07C7C;
+    margin-bottom: 20px;
+}
+
+textarea {
+    @extend input;
+    resize: none;
+}
+
+section {
+    padding: 50px 0;
+
+    .text-center,
+    h2,
+    h3,
+    .nav-main & {
+        p {
+            padding: 0 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+    }
+}

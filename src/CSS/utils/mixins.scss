@@ -1,0 +1,21 @@
+@mixin figureTop () {
+    content: '';
+    position: absolute;
+    border-top: 2px solid $color;
+    height: 20px;
+    width: 20px;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
+
+@mixin figureBott () {
+    content: '';
+    position: absolute;
+    border-bottom: 2px solid $color;
+    height: 20px;
+    width: 20px;
+    -webkit-transition: $transition;
+    -o-transition: $transition;
+    transition: $transition;
+}
